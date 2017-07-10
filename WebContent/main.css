@@ -1,0 +1,71 @@
+a:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: red;
+}
+
+div {
+	width: 340px;
+	padding: 25px;
+	border: 18px solid gray;
+	margin: 15px;
+	float: left;
+}
+
+ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not (.active ) {
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+form {
+	text-align: right;
+}
+body{
+	
+	
+}
+
+
+/* button {
+	margin: auto;
+	display: block;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+} */
