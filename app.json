@@ -1,5 +1,5 @@
 {
-  "name": "Dynamic Webapplication on Heroku Demo",
+  "name": "Dynamic Webapp on Heroku Demo",
   "description": "This is a small demo application for showing how to run a Dynamic web application on Heroku.",
   "repository": "https://github.com/rajivgiri513/BigBox-Application-6th-Iteration",
   "image": "heroku/java",
