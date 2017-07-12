@@ -3,6 +3,18 @@ DROP DATABASE IF EXISTS bigbox;
 CREATE DATABASE bigbox;
 USE bigbox;
 
+-- create the users table
+CREATE TABLE users (
+  ID		     INT            PRIMARY KEY  AUTO_INCREMENT,
+  UserName		 VARCHAR(20)	NOT NULL,
+  Password		 VARCHAR(10)	NOT NULL,
+  FirstName		 VARCHAR(20)	NOT NULL,
+  LastName		 VARCHAR(20)	NOT NULL,
+  Phone			 VARCHAR(12)	NOT NULL,
+  Email			 VARCHAR(75)	NOT NULL,
+  CONSTRAINT unique_user unique (UserName)
+);
+
 -- create the Divisions table
 CREATE TABLE divisions (
   ID		     INT            PRIMARY KEY  AUTO_INCREMENT,
